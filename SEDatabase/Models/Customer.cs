@@ -3,9 +3,8 @@ using System.Collections.Generic;
 
 namespace SEDatabase.Models
 {
-    public class Executor : User // исполнитель
+    public class Customer : User // заказчик
     {
-        public int Price { get; set; }
         public ICollection<Application> Applications { get; set; }
     }
 }

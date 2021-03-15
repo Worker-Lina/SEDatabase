@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace SEDatabase.Models
 {
@@ -10,9 +8,6 @@ namespace SEDatabase.Models
         public string Phone { get; set; }
         public string Name { get; set; }
         public string Token { get; set; }
-        public string Photo { get; set; }
-
-        
-        
+        public string Photo { get; set; }              
     }
 }
