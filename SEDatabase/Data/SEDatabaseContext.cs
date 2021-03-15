@@ -19,6 +19,7 @@ namespace SEDatabase.Data
         }
 
         DbSet<User> Users { get; set; }
+        DbSet<SystemUser> SystemUsers { get; set; }
         DbSet<Notification> notifications { get; set; }
         DbSet<Technique> Techniques { get; set; }
     }
